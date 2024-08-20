@@ -7,16 +7,21 @@
     <title>Clase HTML</title>
 </head>
 <body>
+  <!--Sección 4.8-->
+  <header>
+  <h1>Encabezado principal (H1)</h1>
+  </header>
 
-    <div>
-     <h1> 1. Estructura básica del documento</h1>
+<main>
+    
+<section>
+     <h2 id="EB"> 1. Estructura básica del documento</h2>
      <p> Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título</p>
-    </div>
+</section> 
 
-    <div>
     <!-- Sección 4.2 -->
-     <h1> 2. Encabezados y propiedades de texto</h1>
-     <h1> Este es un encabezado H1 </h1>
+<section>
+     <h2 id="H"> 2. Encabezados y propiedades de texto</h2>
      <h2> Este es un encabezado H2 </h2>
      <h3> Este es un encabezado H3 </h3>
      <h4> Este es un encabezado H4 </h4>
@@ -28,7 +33,113 @@
         <em>Este es un texto en cursiva</em> <br />
         <u>Este es un texto subrayado</u>
      </p>
-    </div>
-    
+</section>
+
+
+  <!--Sección 4.3-->
+<section>
+      <h2>3. Divisores y agrupación de contenido</h2>
+      <div>
+        <h3> Sección 1</h3>
+        <p>Este es el contenido de la primera sección agrupada en un div</p>
+      </div>
+      <div>
+        <h3>Sección 2</h3>
+        <p>Este es el contenido de la segunda sección agrupada en un div</p>
+      </div>
+</section>
+
+
+  <!-- Sección 4.4 -->
+<section>
+      <h2>4. Enlaces y listas</h2>
+      <p>Visita <a href="https://www.youtube.com/" target="_blank">Youtube</a>  para más información <br/>
+      <br/>
+      
+      Enlaces internos:
+      <nav>
+        <ul>
+         <li> <a href="#EB">Ir a la sección "Estructura básica" </a> </li>
+         <li> <a href="#H">Ir a la sección "Encabezados" </a> </li>
+        </ul>
+      </nav>
+
+      Lista ordenada:
+       <ol>
+            <li> Soy un elemento de una lista ordenada</li>
+            <li> Soy un elemento de una lista ordenada</li>
+            <li> Soy un elemento de una lista ordenada</li>
+       </ol>
+      Lista desordenada:
+       <ul>
+           <li> Soy un elemento de una lista desordenada</li>
+           <li> Soy un elemento de una lista desordenada</li>
+           <li> Soy un elemento de una lista desordenada</li>
+      </ul>
+
+    </p>
+
+</section>
+
+
+    <!--Sección 4.5-->
+<section>
+      <h2>5. Elementos multimedia</h2>
+      <img src="https://i.pinimg.com/originals/46/b0/76/46b076176042f996453e056ec0f22bd5.jpg" alt="Esta es una imagen">
+      <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" autoplay></video>
+      <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+</section>
+
+    <!--Sección 4.6-->
+<section>
+      <style>
+        table{
+          width: 40%;
+          border-collapse:collapse;
+        }
+        th,td{
+           border: 1px solid rosybrown;
+           text-align: center;}
+      </style>
+      <h2>6.Tablas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+          </tr>
+          <tr>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+          </tr>
+        </tbody>
+      </table>
+</section>
+
+    <!--Sección 4.7-->
+<section>  
+      <h2> 7.Formularios</h2>
+      <form>
+        <label>Nombre:</label>
+        <input type="text">
+        <label>Email:</label>
+        <input type="email">
+        <label>Mensajes:</label>
+        <textarea></textarea>
+        <button type="submit">Enviar formulario</button>
+      </form>
+</section>
+ </main>
+
+   <footer> 
+    <p> Trabajo práctico HTML 2024 - Desarrollo de software - Giuliana Ranzuglia</p>
+   </footer>
+
 </body>
 </html>
